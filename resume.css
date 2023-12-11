@@ -1,0 +1,93 @@
+#navroutes{
+    align-items: flex-end;
+}
+#navbarNavAltMarkup{
+    align-items: flex-end;
+}
+body{
+    background-color: black;
+    font-family: 'Bree Serif', serif;
+font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Raleway', sans-serif;
+}
+#header{
+    color: white;
+    text-decoration-color: white;
+    position:fixed;
+    width: 100%;
+    top:0px;
+    z-index: 1;
+    margin-bottom: 50px;
+    display: block;
+}
+.underline {
+    display: inline-block;
+    position: relative;
+}
+
+.act {
+    text-decoration: 0.5px underline;
+    text-underline-offset: 6px;
+}
+.underline::after {
+    content: '';
+    position: absolute;
+    transform: scaleX(0);
+    height: 0.5px;
+    bottom: 3.8px;
+    left: 7px;
+    right: 6.2px;
+    background-color: white;
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-out;
+}
+
+.underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+#imgpp{
+    width: 70%;
+    height: 1500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 150px;
+
+}
+#ftext{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 7px;
+}
+.contacts{
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    margin-bottom: 25px;
+}
+#indivicon1{
+    margin-right: 6px;
+    margin-top: 0px;
+    color: white
+}
+#indivicon2{
+    margin-left: 6px;
+    margin-top: 0px;
+    color: white
+}
+#indivicon1:hover{
+     cursor: pointer;
+     color: rgba(255, 255, 255, 0.6);
+    transition: 0.15s ease-in-out;
+}
+#indivicon2:hover{
+     cursor: pointer;
+     color: rgba(255, 255, 255, 0.6);
+    transition: 0.15s ease-in-out;
+}
+a{
+    text-decoration: none;
+}
