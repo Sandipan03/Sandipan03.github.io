@@ -150,28 +150,28 @@ a{
             
         }
         .class4a{
-            width: 70%;
-            /* margin-left: 15%;
-            margin-right: 15%; */
+            width: 100%;
+            margin-left: 15%;
+            margin-right: 15%;
             /* margin-right: 80px; */
         }
         .class4b{
-            width: 70%;
+            width: 100%;
             /* margin: 50px; */
             
-            /* margin-left: 15%;
-            margin-right: 15%; */
+            margin-left: 15%;
+            margin-right: 15%;
         }
     }
     @media (max-width: 769px){
         .class4a{
-            width: 90%;
+            width: 100%;
             margin-left: 5%;
             margin-right: 5%;
             /* margin-right: 80px; */
         }
         .class4b{
-            width: 90%;
+            width: 100%;
             /* margin: 50px; */
             
             margin-left: 5%;
