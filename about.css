@@ -151,9 +151,10 @@ a{
         }
         .class4a{
             width: 100%;
-            margin-left: 15%;
-            margin-right: 15%;
+            margin-left: 0%;
+            margin-right: 0%;
             /* margin-right: 80px; */
+            justify-content: center;
         }
         .class4b{
             width: 100%;
@@ -166,8 +167,8 @@ a{
     @media (max-width: 769px){
         .class4a{
             width: 100%;
-            margin-left: 5%;
-            margin-right: 5%;
+            margin-left: 0%;
+            margin-right: 0%;
             /* margin-right: 80px; */
         }
         .class4b{
