@@ -109,7 +109,18 @@ li{
         margin-top: 150px;
         
     }
+    
+}
+@media (max-width: 260px){
+    .class3{
+        width:100%;
+        margin-top: 150px;
+        left:0%;
+        right: 0%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     .li-text{
-        padding: 5px;
+        font-size: 0.7rem;
     }
 }
