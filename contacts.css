@@ -96,3 +96,17 @@ li{
 #contactmainhead{
     margin-bottom: 30px;
 }
+@media (max-width:499px){
+    .class3{
+        width:80%;
+        margin-top: 100px;
+        
+    }
+}
+@media (max-width:314px){
+    .class3{
+        width:90%;
+        margin-top: 150px;
+        
+    }
+}
