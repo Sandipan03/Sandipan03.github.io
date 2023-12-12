@@ -48,12 +48,12 @@ font-family: 'Raleway', sans-serif;
 }
 #imgpp{
     width: 70%;
-    height: 1500px;
+    height: 60%;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 150px;
 
 }
@@ -90,4 +90,18 @@ font-family: 'Raleway', sans-serif;
 }
 a{
     text-decoration: none;
+}
+@media (max-width: 500px){
+    #imgpp{
+        width: 70%;
+        height: 60%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 150px;
+    
+    }
+    
 }
