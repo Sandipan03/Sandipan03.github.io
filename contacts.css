@@ -96,7 +96,7 @@ li{
 #contactmainhead{
     margin-bottom: 30px;
 }
-@media (max-width:499px){
+@media (max-width:555px){
     .class3{
         width:90%;
         margin-top: 100px;
@@ -111,7 +111,7 @@ li{
     }
     
 }
-@media (max-width: 260px){
+@media (max-width: 290px){
     .class3{
         width:100%;
         margin-top: 150px;
